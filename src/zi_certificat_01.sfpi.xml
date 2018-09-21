@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SFPI" serializer_version="v1.0.0">
+ <asx:abap version="1.0" xmlns:asx="http://www.sap.com/abapxml">
+  <asx:values>
+   <VERSION>1</VERSION>
+   <TYPE/>
+   <INTERFACE href="#o101"/>
+   <INTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>E</LANGUAGE>
+     <ID/>
+     <TEXT>Interface for Test Certificates</TEXT>
+    </FPINTERFACET>
+   </INTERFACET>
+  </asx:values>
+  <asx:heap xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:abap="http://www.sap.com/abapxml/types/built-in" xmlns:cls="http://www.sap.com/abapxml/classes/global" xmlns:dic="http://www.sap.com/abapxml/types/dictionary">
+   <cls:CL_FP_INTERFACE_DATA id="o101">
+    <CL_FP_INTERFACE_DATA classVersion="1">
+     <CODING href="#o102"/>
+     <PARAMETERS href="#o103"/>
+     <GLOBAL_DEFINITIONS href="#o104"/>
+     <REFERENCE_FIELDS href="#o105"/>
+     <XSD_DEFINITIONS/>
+    </CL_FP_INTERFACE_DATA>
+   </cls:CL_FP_INTERFACE_DATA>
+   <cls:CL_FP_REFERENCE_FIELDS id="o105">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o101"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_REFERENCE_FIELDS classVersion="1">
+     <REFERENCE_FIELDS/>
+    </CL_FP_REFERENCE_FIELDS>
+   </cls:CL_FP_REFERENCE_FIELDS>
+   <cls:CL_FP_GLOBAL_DEFINITIONS id="o104">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o101"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_GLOBAL_DEFINITIONS classVersion="1">
+     <GLOBAL_DATA>
+      <SFPGDATA>
+       <NAME>GV_SURF_ELPOL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR1</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_SURF_NONE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR1</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_SIGN</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CRMT_PERS_URL</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_DOC_NAME</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>Z_DOC_NAME</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_DEMO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR10</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_CERT_MATNR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR8</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_PART_SERNR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR10</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_SHOW_MOTOR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR1</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_GRF_ORDER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR25</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_CITY_DATE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR50</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_ADDRESS1</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR50</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_ADDRESS2</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR50</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_TEXT_01</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR30</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_TEXT_02</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR30</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_TEXT_03</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR30</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_ROUGH_MATNR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR10</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+     </GLOBAL_DATA>
+     <TYPES/>
+     <FIELDSYMBOLS/>
+    </CL_FP_GLOBAL_DEFINITIONS>
+   </cls:CL_FP_GLOBAL_DEFINITIONS>
+   <cls:CL_FP_PARAMETERS id="o103">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o101"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_PARAMETERS classVersion="1">
+     <IMPORT_PARAMETERS>
+      <SFPIOPAR>
+       <NAME>IM_HEAD</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZSCERT_HEADER</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IM_PUMP_CHAR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZSCERT_PUMP_CHAR</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IM_COMP</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZTTCERT_COMP_DATA</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IM_COMP_EXTRA</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZTTCERT_COMP_DATA_EXTRA</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IM_ROUGHNESS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZSCERT_ROUGHNESS</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IM_ATEX</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZSCERT_ATEX</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IM_VIBRATION</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZSCERT_VIBRATION</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>IM_PREVIEW</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CHAR1</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE>X</BYVALUE>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+     </IMPORT_PARAMETERS>
+     <EXPORT_PARAMETERS/>
+     <TABLE_PARAMETERS/>
+     <EXCEPTIONS/>
+    </CL_FP_PARAMETERS>
+   </cls:CL_FP_PARAMETERS>
+   <cls:CL_FP_CODING id="o102">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o101"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_CODING classVersion="1">
+     <INPUT_PARAMETERS/>
+     <OUTPUT_PARAMETERS/>
+     <INITIALIZATION>
+      <FPCLINE>    DATA: lo_client TYPE REF TO if_http_client,</FPCLINE>
+      <FPCLINE>          lv_code   TYPE i.</FPCLINE>
+      <FPCLINE>    DATA: lv_found  TYPE xfeld,</FPCLINE>
+      <FPCLINE>          lv_parkey TYPE zparkey,</FPCLINE>
+      <FPCLINE>          lv_value  TYPE zvalue,</FPCLINE>
+      <FPCLINE>          lv_uname  TYPE sy-uname,</FPCLINE>
+      <FPCLINE>          lv_ort01  TYPE ort01,</FPCLINE>
+      <FPCLINE>          lv_date   TYPE char10.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* concatenation salesorder no and sales org - All forms</FPCLINE>
+      <FPCLINE>    WRITE im_head-grf_order TO gv_grf_order NO-ZERO.</FPCLINE>
+      <FPCLINE>    CONCATENATE gv_grf_order im_head-sales_org INTO gv_grf_order SEPARATED BY &apos; &apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>** replace &apos;,&apos; with &apos;.&apos; in TESTFREKA</FPCLINE>
+      <FPCLINE>*    REPLACE &apos;,&apos; WITH &apos;.&apos; INTO im_pump-teststroa.</FPCLINE>
+      <FPCLINE>*    REPLACE &apos;,&apos; WITH &apos;.&apos; INTO im_pump-teststrob.</FPCLINE>
+      <FPCLINE>*    REPLACE &apos;,&apos; WITH &apos;.&apos; INTO im_pump-motorstr.</FPCLINE>
+      <FPCLINE>*    REPLACE &apos;,&apos; WITH &apos;.&apos; INTO im_pump-power_output_p2_kw.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    REPLACE &apos;,&apos; WITH &apos;.&apos; INTO im_pump_char-tech_data_dcr_16.</FPCLINE>
+      <FPCLINE>*    REPLACE &apos;,&apos; WITH &apos;.&apos; INTO im_pump-teststrob. not found</FPCLINE>
+      <FPCLINE>    REPLACE &apos;,&apos; WITH &apos;.&apos; INTO im_pump_char-tech_data_dcr_08.</FPCLINE>
+      <FPCLINE>*    REPLACE &apos;,&apos; WITH &apos;.&apos; INTO im_pump-power_output_p2_kw. (same as DCR_08) not in use.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* Signatures - All forms</FPCLINE>
+      <FPCLINE>    lv_uname = sy-uname.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* check if test_user need to be used..</FPCLINE>
+      <FPCLINE>    lv_parkey = sy-sysid.</FPCLINE>
+      <FPCLINE>    CALL METHOD zcl_param=&gt;read</FPCLINE>
+      <FPCLINE>      EXPORTING</FPCLINE>
+      <FPCLINE>        area    = &apos;QM&apos;</FPCLINE>
+      <FPCLINE>        subarea = &apos;CERT&apos;</FPCLINE>
+      <FPCLINE>        parname = &apos;USE_TEST_USER_SIGNATURE&apos;</FPCLINE>
+      <FPCLINE>        parkey  = lv_parkey</FPCLINE>
+      <FPCLINE>      IMPORTING</FPCLINE>
+      <FPCLINE>        found   = lv_found</FPCLINE>
+      <FPCLINE>        value   = lv_value.</FPCLINE>
+      <FPCLINE>    IF lv_value = &apos;X&apos;.</FPCLINE>
+      <FPCLINE>      lv_uname = &apos;TEST&apos;.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>*   Read path to signature file from ZX08</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    CALL METHOD zcl_param=&gt;read</FPCLINE>
+      <FPCLINE>      EXPORTING</FPCLINE>
+      <FPCLINE>        area    = &apos;QM&apos;</FPCLINE>
+      <FPCLINE>        subarea = &apos;CERT&apos;</FPCLINE>
+      <FPCLINE>        parname = &apos;PATH_USER_SIGNATURE&apos;</FPCLINE>
+      <FPCLINE>        parkey  = lv_parkey</FPCLINE>
+      <FPCLINE>      IMPORTING</FPCLINE>
+      <FPCLINE>        found   = lv_found</FPCLINE>
+      <FPCLINE>        value   = lv_value.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    IF lv_found IS INITIAL.</FPCLINE>
+      <FPCLINE>*     error</FPCLINE>
+      <FPCLINE>    ELSE.</FPCLINE>
+      <FPCLINE>      &quot;http://grusapx20.sap.group.grundfos.com:8002/Adobe_Signs/SIGN_GBJLLZ.png</FPCLINE>
+      <FPCLINE>      gv_sign = &apos;http://&apos; &amp;&amp; lv_value &amp;&amp; &apos;SIGN_&apos; &amp;&amp; lv_uname &amp;&amp; &apos;.png&apos;.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>***      gv_sign = &apos;http://&apos; &amp;&amp; lv_value &amp;&amp; &apos;SIGN_&apos; &amp;&amp; &apos;TEST&apos; &amp;&amp; &apos;.png&apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    cl_http_client=&gt;create_by_url(</FPCLINE>
+      <FPCLINE>      EXPORTING</FPCLINE>
+      <FPCLINE>        url    = gv_sign</FPCLINE>
+      <FPCLINE>      IMPORTING</FPCLINE>
+      <FPCLINE>        client = lo_client ).</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    lo_client-&gt;send( ).</FPCLINE>
+      <FPCLINE>    lo_client-&gt;receive( ).</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    lo_client-&gt;response-&gt;get_status(</FPCLINE>
+      <FPCLINE>          IMPORTING</FPCLINE>
+      <FPCLINE>            code = lv_code ).</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* concatenate address</FPCLINE>
+      <FPCLINE>    WRITE sy-datum TO lv_date.</FPCLINE>
+      <FPCLINE>    CONCATENATE im_head-ort01 lv_date INTO gv_city_date SEPARATED BY &apos; &apos;.</FPCLINE>
+      <FPCLINE>    gv_address1 = im_head-stras.</FPCLINE>
+      <FPCLINE>    CONCATENATE im_head-ort01 &apos;,&apos; INTO lv_ort01.</FPCLINE>
+      <FPCLINE>    CONDENSE lv_ort01.</FPCLINE>
+      <FPCLINE>    CONCATENATE im_head-pstlz lv_ort01 im_head-landx INTO gv_address2 SEPARATED BY &apos; &apos;.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* Print demo across the output in pink tone - All forms - for test</FPCLINE>
+      <FPCLINE>* and if no signature for user..</FPCLINE>
+      <FPCLINE>    CLEAR: gv_demo.</FPCLINE>
+      <FPCLINE>    IF im_preview = &apos;X&apos;.  &quot;show print</FPCLINE>
+      <FPCLINE>      gv_demo = &apos;PREVIEW&apos;.</FPCLINE>
+      <FPCLINE>    ELSE.                 &quot;create in CV01</FPCLINE>
+      <FPCLINE>      IF sy-sysid(1) NE &apos;P&apos; OR lv_code NE &apos;200&apos;.</FPCLINE>
+      <FPCLINE>        gv_demo = &apos;DEMO&apos;.</FPCLINE>
+      <FPCLINE>      ENDIF.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>**http://grusapx20.sap.group.grundfos.com:8002/Adobe_Signs/SIGN_GBJLLZ.png</FPCLINE>
+      <FPCLINE>*IF sy-sysid(1) = &apos;P&apos;.</FPCLINE>
+      <FPCLINE>*  CONCATENATE &apos;http://grusapx20.sap.group.grundfos.com:8002/Adobe_Signs/SIGN_&apos; sy-uname &apos;.png&apos; INTO gv_sign.</FPCLINE>
+      <FPCLINE>**  gv_sign = &apos;http://grusapx20.sap.group.grundfos.com:8002/Adobe_Signs/SIGN_GBJLLZ.png&apos;.</FPCLINE>
+      <FPCLINE>*ELSE.</FPCLINE>
+      <FPCLINE>*  CONCATENATE &apos;http://grusapx20.sap.group.grundfos.com:8002/Adobe_Signs/SIGN_&apos; sy-uname &apos;.png&apos; INTO gv_sign.</FPCLINE>
+      <FPCLINE>**  gv_sign = &apos;http://grusapx20.sap.group.grundfos.com:8002/Adobe_Signs/SIGN_GBJLLZ.png&apos;.</FPCLINE>
+      <FPCLINE>*ENDIF.</FPCLINE>
+      <FPCLINE>    CONDENSE gv_sign NO-GAPS.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* Partno in the bottom of the form - All forms</FPCLINE>
+      <FPCLINE>    WRITE im_head-cert_matnr TO gv_cert_matnr NO-ZERO.</FPCLINE>
+      <FPCLINE>    WRITE im_head-cert_matnr TO gv_doc_name NO-ZERO.</FPCLINE>
+      <FPCLINE>    CONCATENATE gv_doc_name im_head-doc_name INTO gv_doc_name.</FPCLINE>
+      <FPCLINE>    CONDENSE gv_doc_name NO-GAPS.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>************** form spefific **********************</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* Surface treatment (ZF_CERT_04)</FPCLINE>
+      <FPCLINE>    IF gv_cert_matnr = &apos;96507931&apos;.</FPCLINE>
+      <FPCLINE>      CLEAR: gv_surf_elpol, gv_surf_none.</FPCLINE>
+      <FPCLINE>      IF im_roughness-surface IS INITIAL.</FPCLINE>
+      <FPCLINE>        gv_surf_none = &apos;X&apos;.</FPCLINE>
+      <FPCLINE>      ELSE.</FPCLINE>
+      <FPCLINE>        gv_surf_elpol = &apos;X&apos;.</FPCLINE>
+      <FPCLINE>      ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>      CALL FUNCTION &apos;CONVERSION_EXIT_MATN1_OUTPUT&apos;</FPCLINE>
+      <FPCLINE>        EXPORTING</FPCLINE>
+      <FPCLINE>          input  = im_roughness-crn_base</FPCLINE>
+      <FPCLINE>        IMPORTING</FPCLINE>
+      <FPCLINE>          output = gv_rough_matnr.</FPCLINE>
+      <FPCLINE>      IF sy-subrc NE 0.</FPCLINE>
+      <FPCLINE>        CLEAR gv_rough_matnr.</FPCLINE>
+      <FPCLINE>      ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* ATEX approved pump + Vibration report</FPCLINE>
+      <FPCLINE>    IF gv_cert_matnr = &apos;96512240&apos; OR gv_cert_matnr = &apos;96507932&apos;.</FPCLINE>
+      <FPCLINE>* Get sernr from DUT ID/SERNR - ZF_CERT_06 + ZF_CERT_03</FPCLINE>
+      <FPCLINE>      IF im_head-sernr CA &apos;P&apos;.</FPCLINE>
+      <FPCLINE>        gv_part_sernr = im_head-sernr+8(10).</FPCLINE>
+      <FPCLINE>      ELSE.</FPCLINE>
+      <FPCLINE>        gv_part_sernr = im_head-sernr+8(8).</FPCLINE>
+      <FPCLINE>      ENDIF.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* show Motor on ATEX output (ZF_CERT_06)</FPCLINE>
+      <FPCLINE>    gv_show_motor = &apos;N&apos;.   &quot;no motor</FPCLINE>
+      <FPCLINE>*    IF im_pump-pumpemmot = &apos;Y&apos;.  &quot;yes motor</FPCLINE>
+      <FPCLINE>    IF im_pump_char-tech_data_dcr_14 = &apos;Y&apos;.  &quot;yes motor</FPCLINE>
+      <FPCLINE>      gv_show_motor = &apos;Y&apos;.</FPCLINE>
+      <FPCLINE>    ELSE.</FPCLINE>
+      <FPCLINE>*      im_pump-power_output_p2_kw = &apos;W/O Motor&apos;.</FPCLINE>
+      <FPCLINE>      im_pump_char-tech_data_dcr_08 = &apos;W/O Motor&apos;.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>* both im_head-address1 and im_head-address2 are initial</FPCLINE>
+      <FPCLINE>* please look into ZCL_CERTIFICATE~GET_HEADER_DATA</FPCLINE>
+      <FPCLINE>* to do changes ..</FPCLINE>
+      <FPCLINE>*    IF im_head-address1 IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>*      gv_address1 = im_head-address1.</FPCLINE>
+      <FPCLINE>*    ENDIF.</FPCLINE>
+      <FPCLINE>*    IF im_head-address2 IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>*      gv_address2 = im_head-address2.</FPCLINE>
+      <FPCLINE>*    ENDIF.</FPCLINE>
+      <FPCLINE>    BREAK gmadrla.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>* // Various texts from SO10</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    CONCATENATE &apos;ZDCR_&apos; gv_cert_matnr &apos;_&apos; &apos;01&apos; INTO gv_text_01. CONDENSE gv_text_01.</FPCLINE>
+      <FPCLINE>    CONCATENATE &apos;ZDCR_&apos; gv_cert_matnr &apos;_&apos; &apos;02&apos; INTO gv_text_02. CONDENSE gv_text_02.</FPCLINE>
+      <FPCLINE>    CONCATENATE &apos;ZDCR_&apos; gv_cert_matnr &apos;_&apos; &apos;03&apos; INTO gv_text_03. CONDENSE gv_text_03.</FPCLINE>
+     </INITIALIZATION>
+     <FORMS/>
+    </CL_FP_CODING>
+   </cls:CL_FP_CODING>
+  </asx:heap>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZGRF_QM_CERT</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>QM Certificate solution</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Material number of serial number is not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Format of serial number is not correct</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Plant is not correct</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Update of table &amp;1 failed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Entry not found in table &amp;1 for &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Read of customer address failed with return code &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Certificate cannot be created due to missing test certificate type</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Characteristic &amp;1 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Read of classification failed with return code &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Characteristic &amp;1 error in value conversion</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Characteristic &amp;1 conversion error NO_NUMBER</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>PDF Form &amp;1 not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>For PDF form &amp;1 open failed with return code &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>For PDF form &amp;1 execution failed with return code &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Close of form &amp;1 failed with return code &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>An error occurred when creating e-mail</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>File not transferred to FTP-server</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Error when history set (Z_ZD010_CHANGE_DOC_STATUS returncode &amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Doc. already exists (API_DOCUMENT_MAINTAIN2)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Error when create dir. (API_DOCUMENT_MAINTAIN2)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Error when release set (Z_ZD010_CHANGE_DOC_STATUS returncode &amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Read of document &amp;1 &amp;2 &amp;3 &amp;4 failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Attachment not found for document &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>Error in function module &amp;1 return code = &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>******* Messages used for Heat app **********</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Invalid serial number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Invalid material number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>Invalid heat data value</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>Error in update of heat data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>Material number does not exist in BOM</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>No plant defined for user</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZGRF_QM_CERT</ARBGB>
+     <MSGNR>080</MSGNR>
+     <TEXT>File size not found</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

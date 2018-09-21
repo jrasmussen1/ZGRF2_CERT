@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CERTIFICATE</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Certificate</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CERTIFICATE</CLSNAME>
+     <CMPNAME>CHECK_USER_SIGN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check if there is a signature for user</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CERTIFICATE</CLSNAME>
+     <CMPNAME>CREATE_DOCUMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create doc. using CV01</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CERTIFICATE</CLSNAME>
+     <CMPNAME>CREATE_PDF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Generate PDF form</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CERTIFICATE</CLSNAME>
+     <CMPNAME>CREATE_PDF_NOVIEW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Generate PDF form to enable print</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CERTIFICATE</CLSNAME>
+     <CMPNAME>CREATE_PDF_PREVIEW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Generate PDF form for preview - no print</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CERTIFICATE</CLSNAME>
+     <CMPNAME>GET_CLASSIFICATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get classification data for material</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CERTIFICATE</CLSNAME>
+     <CMPNAME>GET_HEADER_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get certificate header data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CERTIFICATE</CLSNAME>
+     <CMPNAME>GET_NEXT_VERSION_FOR_DOC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get next Version using SO/Item ao.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CERTIFICATE</CLSNAME>
+     <CMPNAME>GET_RELEASED_VERSION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>get released documents</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CERTIFICATE</CLSNAME>
+     <CMPNAME>GV_DESTINATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Logical Destination (Specified in Function Call)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CERTIFICATE</CLSNAME>
+     <CMPNAME>GV_DOKTL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Documentation - text lines</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
